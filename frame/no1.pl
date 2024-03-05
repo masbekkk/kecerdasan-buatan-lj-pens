@@ -1,0 +1,13 @@
+attribute(birds,flying,true).
+attribute(birds,feathered,true).
+attribute(petcanaries,colour,yellow).
+attribute(ravens,colour,black).
+akindof(petcanaries,birds).
+akindof(ravens,birds).
+akindof(vet,person).
+isa(edgar,ravens).
+isa(tweety,petcanaries).
+isa(cheepy,petcanaries).
+isa(sally,vet).
+isa(john,person).
+isa(marry,person).

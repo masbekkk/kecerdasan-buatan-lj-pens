@@ -1,0 +1,10 @@
+crocodile(buaya).
+grass_snake(sidney).
+grass_snake(slither).
+reptiles(X):-snake(X).
+reptiles(X):-crocodile(X).
+snake(X):-grass_snake(X).
+has(X,no_legs):-snake(X).
+color(X,green):-grass_snake(X).
+size(X,small):-grass_snake(X).
+vegetarian(slither).
